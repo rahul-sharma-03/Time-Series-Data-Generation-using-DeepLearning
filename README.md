@@ -25,11 +25,11 @@
 - <a href="#author--contact">Author & Contact</a>
 
 ---
-### <h2><a class="anchor" id="overview"></a>Overview</h2>
+<h2><a class="anchor" id="overview"></a>Overview</h2>
 This project focuses on the generation of synthetic time series data using deep learning, specifically the TimeGAN (Time-series Generative Adversarial Network) architecture. The objective is to produce high-fidelity synthetic data that accurately reflects the temporal dynamics and statistical properties of real-world time series data. This is particularly valuable in domains where data is scarce, private, or expensive to obtain, such as finance, healthcare, and IoT.
 
 ---
-#### <h2><a class="anchor" id="Problem-Statement"></a>Problem Statement</h2>
+<h2><a class="anchor" id="Problem-Statement"></a>Problem Statement</h2>
 Many industries rely on time series data but face significant limitations such as missing values, privacy constraints, and restricted access,especially in critical fields like finance, healthcare, and IoT. These limitations can hinder the development of reliable machine learning models that require large and diverse datasets to learn complex temporal patterns.This project aims to address this by:
 
 - Generating realistic synthetic time series data to augment existing datasets.
@@ -43,7 +43,7 @@ Many industries rely on time series data but face significant limitations such a
 - Promoting Data Sharing and Collaboration: Developing shareable, privacy-respecting synthetic datasets to encourage cooperation and speed up research and development in both academic and industrial settings without breaching confidentiality.
 
 ---
-#### <h2><a class="anchor" id="dataset"></a>Dataset</h2>
+<h2><a class="anchor" id="dataset"></a>Dataset</h2>
 - The project uses a financial time series dataset, aadr.us.txt sourced from kaggle containing daily stock data.  (https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs) -- DataSet link for reference
 
 - Univariate time series (single feature per sequence).
@@ -51,7 +51,7 @@ Many industries rely on time series data but face significant limitations such a
 - Data saved in .npy format for fast access and compatibility.
 
 ---
-##### <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
+<h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
 - **Python**: The core programming language for the project.
 
 **Libraries**:
