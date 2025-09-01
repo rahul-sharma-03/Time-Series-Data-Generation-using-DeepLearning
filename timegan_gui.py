@@ -135,4 +135,6 @@ def show_plot(plot_func):
         canvas.draw()
         canvas.get_tk_widget().pack()
 
+print("Launching GUI...")
 root.mainloop()
+print("GUI closed")
