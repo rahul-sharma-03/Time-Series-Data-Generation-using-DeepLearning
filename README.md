@@ -2,9 +2,9 @@
  _Generating realistic synthetic time series data using deep learning models, with a focus on TimeGAN for applications in finance and beyond._
 ---
 ## 📌 Table of Contents
-<a href="#overview">Overview</a>
+- <a href="#overview">Overview</a>
 
-- <a href="#Problem Statement">Problem Statement</a>
+- <a href="#Problem-Statement">Problem Statement</a>
 
 - <a href="#dataset">Dataset</a>
 
@@ -52,6 +52,7 @@ Many industries rely on time series data but face significant limitations such a
 
 ---
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
+
 - **Python**: The core programming language for the project.
 
 **Libraries**:
@@ -127,9 +128,9 @@ time-series-data-generation/
 
 1) **Load Data**: Upload a time series file in NumPy (.npy) format.
 
-2)** Train Model**: Train the TimeGAN model on the loaded data.
+2) **Train Model**: Train the TimeGAN model on the loaded data.
 
-3)** Generate Data**: Produce synthetic samples from the trained model.
+3) **Generate Data**: Produce synthetic samples from the trained model.
 
 4) **Visualize Results**: Click "Show Time Series Samples" to view a smoothed plot comparing the real data against a generated synthetic sample. Continuously clicking this button will cycle through different generated samples, allowing for a dynamic evaluation of the model's output.
 <img width="1363" height="722" alt="image" src="https://github.com/user-attachments/assets/659d398c-7ba6-4c0d-a131-b937bb80d978" />
@@ -141,11 +142,11 @@ time-series-data-generation/
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
 
-1.** Clone the repository**:
+1. **Clone the repository**:
 ```bash
 git clone https://github.com/yourusername/time-series-data-generation.git
 ```
-2.** Install the required libraries**:
+2. **Install the required libraries**:
 ```bash
 pip install -r requirements.txt
 ```
@@ -153,7 +154,7 @@ pip install -r requirements.txt
 ```bash
 notebooks/Time_Series_synthetic_data_generation_with_TimeGAN.ipynb
 ```
-4.** To use the GUI, run the script**:
+4. **To use the GUI, run the script**:
 ```bash
 python scripts/gui.py
 ```
