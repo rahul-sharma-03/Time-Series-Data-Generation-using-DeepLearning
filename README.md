@@ -1,5 +1,5 @@
  # 📈Time Series Data Generation using Deep Learning
- _Generating realistic synthetic time series data using deep learning models, with a focus on TimeGAN for applications in finance and beyond._
+ _Generating realistic synthetic time series data using deep learning model, with a focus on TimeGAN for applications in finance and beyond._
 ---
 ## 📌 Table of Contents
 - <a href="#overview">Overview</a>
@@ -40,7 +40,7 @@ Many industries rely on time series data but face significant limitations such a
 
 - Improving Model Resilience: Producing a range of diverse and uncommon event scenarios that may be less frequent in actual data to develop machine learning models that are more robust and generalizable.
 
-- Promoting Data Sharing and Collaboration: Developing shareable, privacy-respecting synthetic datasets to encourage cooperation and speed up research and development in both academic and industrial settings without breaching confidentiality.
+- The goal is to help experts in both universities and companies collaborate more easily by generating high-quality, synthetic data that acts like the real thing but is completely anonymous. This way, they can share crucial insights and speed up innovation, all while keeping sensitive data perfectly safe
 
 ---
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
@@ -102,7 +102,7 @@ time-series-data-generation/
 
 - **Synthetic Data Generation**: The trained model is used to generate synthetic time series data.
 
-- **Evaluation**: The quality of the synthetic data is assessed by visually and statistically comparing it to the real data using plots and metrics like ACF and PACF plots,stationarity test.
+- **Evaluation**: The quality of the synthetic data is assessed by visually and statistically comparing it to the real data using plots and metrics like ACF and PACF plots, stationarity test.
 
 ---
 <h2><a class="anchor" id="results-and-visualizations"></a>Results and Visualizations</h2>
@@ -162,7 +162,7 @@ python scripts/gui.py
 
 <h2><a class="anchor" id="conclusion--future-scope"></a>Conclusion & Future Scope</h2>
 
-- **Conclusion**: The project successfully demonstrates the use of TimeGAN to generate high-quality synthetic time series data, providing a viable solution for data augmentation.
+- **Conclusion**: This project successfully demonstrates the capability of TimeGAN to generate realistic and statistically consistent synthetic time series data. By leveraging advanced neural network architectures—specifically the integration of generative adversarial networks with recurrent layers—the model captures both the temporal dynamics and distributional patterns of real-world sequential data. The implemented GUI enables intuitive visualization and comparison of real and synthetic data through KDE plots, histograms, time series overlays, scatter plots, and autocorrelation functions.
 
 - **Future Scope**:
 
@@ -171,6 +171,10 @@ python scripts/gui.py
    - Experiment with other generative models like DoppelGANger.
 
    - Apply the framework to different domains, such as healthcare and IoT.
+ 
+   - Introduce conditional generation to create synthetic data based on specific user-defined patterns or inputs.
+ 
+   - Automate hyperparameter tuning to find the optimal model configuration for any given dataset automatically.
 
 ---
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
