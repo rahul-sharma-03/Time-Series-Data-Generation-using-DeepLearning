@@ -1,4 +1,4 @@
- # Time Series Data Generation using Deep Learning
+ # 📈Time Series Data Generation using Deep Learning
  _Generating realistic synthetic time series data using deep learning models, with a focus on TimeGAN for applications in finance and beyond._
 ---
 ## 📌 Table of Contents
