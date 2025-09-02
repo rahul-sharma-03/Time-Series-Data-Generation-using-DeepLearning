@@ -25,11 +25,11 @@
 - <a href="#author--contact">Author & Contact</a>
 
 ---
-<h2><a class="anchor" id="overview"></a>Overview</h2>
+<h2><a class="anchor" id="overview"></a>✨ Overview</h2>
 This project focuses on the generation of synthetic time series data using deep learning, specifically the TimeGAN (Time-series Generative Adversarial Network) architecture. The objective is to produce high-fidelity synthetic data that accurately reflects the temporal dynamics and statistical properties of real-world time series data. This is particularly valuable in domains where data is scarce, private, or expensive to obtain, such as finance, healthcare, and IoT.
 
 ---
-<h2><a class="anchor" id="Problem-Statement"></a>Problem Statement</h2>
+<h2><a class="anchor" id="Problem-Statement"></a>💡 Problem Statement</h2>
 Many industries rely on time series data but face significant limitations such as missing values, privacy constraints, and restricted access,especially in critical fields like finance, healthcare, and IoT. These limitations can hinder the development of reliable machine learning models that require large and diverse datasets to learn complex temporal patterns.This project aims to address this by:
 
 - Generating realistic synthetic time series data to augment existing datasets.
@@ -43,15 +43,15 @@ Many industries rely on time series data but face significant limitations such a
 - The goal is to help experts in both universities and companies collaborate more easily by generating high-quality, synthetic data that acts like the real thing but is completely anonymous. This way, they can share crucial insights and speed up innovation, all while keeping sensitive data perfectly safe
 
 ---
-<h2><a class="anchor" id="dataset"></a>Dataset</h2>
-- The project uses a financial time series dataset, aadr.us.txt sourced from kaggle containing daily stock data.  (https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs) -- DataSet link for reference
+<h2><a class="anchor" id="dataset"></a>📈 Dataset</h2>
+ The project uses a financial time series dataset, aadr.us.txt sourced from kaggle containing daily stock data.  (https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs) -- DataSet link for reference
 
 - Univariate time series (single feature per sequence).
 
 - Data saved in .npy format for fast access and compatibility.
 
 ---
-<h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
+<h2><a class="anchor" id="tools--technologies"></a>💻 Tools & Technologies</h2>
 
 - **Python**: The core programming language for the project.
 
@@ -72,7 +72,7 @@ Many industries rely on time series data but face significant limitations such a
 - **Tkinter**: For the development of a graphical user interface (GUI).
 
 ---
-<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
+<h2><a class="anchor" id="project-structure"></a>📂 Project Structure</h2>
 
 ```
 time-series-data-generation/
@@ -92,7 +92,7 @@ time-series-data-generation/
 ```
 
 ---
-<h2><a class="anchor" id="methodology"></a>Methodology</h2>
+<h2><a class="anchor" id="methodology"></a>⚗️ Methodology</h2>
 
 - **Data Loading and Preprocessing**: The stock price data is loaded, and the 'Close' prices are extracted. The data is then scaled using MinMaxScaler.
 
@@ -105,7 +105,7 @@ time-series-data-generation/
 - **Evaluation**: The quality of the synthetic data is assessed by visually and statistically comparing it to the real data using plots and metrics like ACF and PACF plots, stationarity test.
 
 ---
-<h2><a class="anchor" id="results-and-visualizations"></a>Results and Visualizations</h2>
+<h2><a class="anchor" id="results-and-visualizations"></a>📉 Results and Visualizations</h2>
 
 - **Real vs. Synthetic Data**: The generated data closely mimics the patterns of the real stock price data.
 
@@ -120,7 +120,7 @@ time-series-data-generation/
 - **Visualization**: Tkinter GUI to load .npy files and plot outputs.
 
 ---
-<h2><a class="anchor" id="gui-dashboard"></a>GUI Dashboard</h2>
+<h2><a class="anchor" id="gui-dashboard"></a>🖼️ GUI Dashboard</h2>
 
 - An interactive GUI built with Tkinter provides a user-friendly way to interact with the model.
 
@@ -140,7 +140,7 @@ time-series-data-generation/
 
 
 ---
-<h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
+<h2><a class="anchor" id="how-to-run-this-project"></a>▶️ How to Run This Project</h2>
 
 1. **Clone the repository**:
 ```bash
@@ -160,7 +160,7 @@ python scripts/gui.py
 ```
 ---
 
-<h2><a class="anchor" id="conclusion--future-scope"></a>Conclusion & Future Scope</h2>
+<h2><a class="anchor" id="conclusion--future-scope"></a>🔮 Conclusion & Future Scope</h2>
 
 - **Conclusion**: This project successfully demonstrates the capability of TimeGAN to generate realistic and statistically consistent synthetic time series data. By leveraging advanced neural network architectures—specifically the integration of generative adversarial networks with recurrent layers—the model captures both the temporal dynamics and distributional patterns of real-world sequential data. The implemented GUI enables intuitive visualization and comparison of real and synthetic data through KDE plots, histograms, time series overlays, scatter plots, and autocorrelation functions.
 
@@ -177,7 +177,8 @@ python scripts/gui.py
    - Automate hyperparameter tuning to find the optimal model configuration for any given dataset automatically.
 
 ---
-<h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
+
+<h2><a class="anchor" id="author--contact"></a>🧑‍💻 Author & Contact</h2>
 
 **B Rahul Sharma**  
 Data Analyst  
